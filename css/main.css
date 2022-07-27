@@ -342,7 +342,7 @@ body {
   position: relative;
   padding-top: 140px;
   padding-bottom: 168px;
-  background-color:  #004047;
+  background-color: #004047;
   background-image: url("../images/deliver-bg-rectangle.svg");
   background-repeat: no-repeat;
   background-position: calc(50% + 686px) bottom;
@@ -354,7 +354,7 @@ body {
   text-align: center;
   margin-top: 0;
   margin-bottom: 84px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .meeting__list {
   display: flex;
@@ -368,9 +368,9 @@ body {
   position: absolute;
   top: 0;
   left: calc(50% - 810px);
-  width: 200px;
+  width: 100px;
   height: 200px;
-  background-image: url(../images/meet-bg-left.svg);
+  background-image: url("../images/meet-bg-left.svg");
   background-position: calc(50% - 800px);
   background-size: 200px 200px;
 }
@@ -382,21 +382,21 @@ body {
   margin-right: 30px;
   margin-bottom: 76px;
 }
-.meeting__item-wrapper{
+.meeting__item-wrapper {
   position: relative;
   text-align: center;
   width: 350px;
   height: 253px;
   margin-right: 30px;
   margin-bottom: 76px;
-  padding: 35px 24px 56px 24px; 
+  padding: 35px 24px 56px 24px;
   transition: transform 1s ease;
   backface-visibility: hidden;
 }
-.meeting__item:nth-child(3){
+.meeting__item:nth-child(3) {
   margin-right: 0;
 }
-.meeting__item:nth-child(6){
+.meeting__item:nth-child(6) {
   margin-right: 0;
 }
 
@@ -407,9 +407,9 @@ body {
   z-index: 2;
   width: 350px;
   padding: 35px 24px 62px 24px;
-  background-color: #012F34;
+  background-color: #012f34;
 }
-.meeting__inner-front::before{
+.meeting__inner-front::before {
   content: "";
   display: block;
   width: 96px;
@@ -419,22 +419,22 @@ body {
   background-size: 96px 96px;
   background-repeat: no-repeat;
 }
-.meeting__inner-front--cristian::before{
+.meeting__inner-front--cristian::before {
   background-image: url("../images/cristian.png");
 }
-.meeting__inner-front--cruz::before{
+.meeting__inner-front--cruz::before {
   background-image: url("../images/cruz.png");
 }
-.meeting__inner-front--drake::before{
+.meeting__inner-front--drake::before {
   background-image: url("../images/drake.png");
 }
-.meeting__inner-front--griffin::before{
+.meeting__inner-front--griffin::before {
   background-image: url("../images/griffin.png");
 }
-.meeting__inner-front--aden::before{
+.meeting__inner-front--aden::before {
   background-image: url("../images/adean.png");
 }
-.meeting__item-btn{
+.meeting__item-btn {
   position: absolute;
   z-index: 3;
   bottom: -29px;
@@ -446,26 +446,25 @@ body {
   background-image: url("../images/eks.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F67E7E;
+  background-color: #f67e7e;
   border-radius: 50%;
   background-size: 16px 16px;
   background-repeat: no-repeat;
   transition: transform 2s;
 }
 
-.meeting__item-btn--active ~ .meeting__item-wrapper{
+.meeting__item-btn--active ~ .meeting__item-wrapper {
   transform: rotateY(180deg);
 }
-.meeting__inner-back{
+.meeting__inner-back {
   transform: rotateY(180deg);
 }
 
-.meeting__item-btn--active{
+.meeting__item-btn--active {
   transform: rotate(90deg);
-  background-color: #79C8C7;
-  transition:  1s;
+  background-color: #79c8c7;
+  transition: 1s;
 }
-
 
 .meeting__item-front-title {
   font-weight: 700;
@@ -474,7 +473,7 @@ body {
   text-align: center;
   margin-top: 18px;
   margin-bottom: 0;
-  color: #79C8C7;
+  color: #79c8c7;
 }
 .meeting__item-front-work {
   font-size: 15px;
@@ -499,7 +498,7 @@ body {
   text-align: center;
   margin-top: 0;
   margin-bottom: 8px;
-  color: #79C8C7;
+  color: #79c8c7;
 }
 .meeting__item-back-desc {
   font-weight: 600;
@@ -511,22 +510,20 @@ body {
   color: var(--main-text-color);
 }
 
-.meeting__wrapper-img{
+.meeting__wrapper-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.meeting__wrapper-link-img{
+.meeting__wrapper-link-img {
   margin-right: 18px;
   fill: #fff;
 }
-.meeting__wrapper-link-img:hover{
-  fill: #F67E7E;
+.meeting__wrapper-link-img:hover {
+  fill: #f67e7e;
 }
 /* meetin section finish */
-
-
 
 /* Start begin */
 .start {
