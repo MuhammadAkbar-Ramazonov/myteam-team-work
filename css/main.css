@@ -465,11 +465,12 @@ body {
   align-items: flex-start;
 }
 .build__info {
+  position: relative;
   margin-right: 120px;
 }
 .build__info::before {
   position: absolute;
-  top: 120px;
+  top: -58px;
   content: "";
   width: 50px;
   height: 4px;
