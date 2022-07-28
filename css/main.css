@@ -936,7 +936,7 @@ body {
 }
 
 .form-input:valid {
-  border-color: ;
+  border-color: #79c8c7;
 }
 
 .form-input:not(:placeholder-shown):not(:focus):invalid {
