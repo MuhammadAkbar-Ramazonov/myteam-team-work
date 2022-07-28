@@ -11,7 +11,7 @@ elLinks.forEach(link => {
 elopenModalBtn.forEach(function(link){
 
     link.addEventListener("click" , function(evt){
-        evt.preventDefault();
+        
         link.classList.toggle("meeting__item-btn--active")
     })
 })
