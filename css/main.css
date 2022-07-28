@@ -594,14 +594,17 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .site-footer__item {
   width: 445px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
   color: #ffffff;
   opacity: 0.6;
+  text-decoration: none;
 }
 
 .site-footer__bootom {
@@ -923,7 +926,12 @@ body {
   color: #f67e7e;
 }
 
+.form-input:valid {
+  border-color: ;
+}
+
 .form-input:not(:placeholder-shown):not(:focus):invalid {
+  color: #f67e7e;
   border-bottom-color: #f67e7e;
   margin-bottom: 0;
 }
